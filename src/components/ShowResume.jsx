@@ -1,6 +1,6 @@
 const ShowResume = () => {
   // The URL of your resume PDF file
-  const resumeUrl = import.meta.env.VITE_RESUME;
+  const resumeUrl = "https://drive.google.com/file/d/1E6GERw1qFtIgwwEZGiaEDsDWIQJiSenO/view?usp=drive_link";
   const handleClick = () => {
     window.open(resumeUrl, "_blank");
   };
