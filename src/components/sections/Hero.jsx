@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import ShowResume from "../ShowResume.jsx";
 function Hero() {
   return (
     <section
@@ -37,19 +38,22 @@ function Hero() {
               </span>
               <span>
                 <a href={user_info.profile.linkedin}>
-                <FaLinkedin />
+                  <FaLinkedin />
                 </a>
               </span>
               <span>
                 <a href={user_info.profile.leetcode}>
-                <SiLeetcode />
+                  <SiLeetcode />
                 </a>
               </span>
               <span>
                 <a href={user_info.profile.twitter}>
-                <FaSquareXTwitter />
+                  <FaSquareXTwitter />
                 </a>
               </span>
+            </div>
+            <div className="hover:text-red-600 border border-white w-fit p-3 rounded-sm text-sm">
+              <ShowResume />
             </div>
             <div className="flex gap-2 mt-6">
               <a

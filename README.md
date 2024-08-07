@@ -1,8 +1,18 @@
-# React + Vite
+PORTFOLIO SETUP AND REVIEW:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Go to your current directory you wish to create your project
 
-Currently, two official plugins are available:
+![1722961014748](image/README/1722961014748.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+after that go to myportfolio directory
+
+![1722961052918](image/README/1722961052918.png)
+
+
+after that run 
+
+* git clone [gnvvs-07/GNVVS (github.com)](https://github.com/gnvvs-07/GNVVS)
+* npm i
+* add .env file in your project directory and add your github access token and git hub profile username
+* npm run dev
