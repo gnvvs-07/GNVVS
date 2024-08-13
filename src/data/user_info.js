@@ -21,6 +21,7 @@ const info = {
     github: "https://github.com/gnvvs-07",
     linkedin: "https://www.linkedin.com/in/g-n-v-vinay-sankar-059703280/",
     leetcode: "https://leetcode.com/u/Vinay__07/",
+    slack: "https://app.slack.com/client/T072XUZDA77/C07BDEDH8KE",
   },
 
   // ============ PROJECTS ============
@@ -51,6 +52,15 @@ const info = {
         "Developed a full stack responsive food delivery web application using mern including payment option using Stripe",
       technologies: "React, MongoDB,Nodejs,Expressjs,stripe",
       github: "https://github.com/gnvvs-07/Food-Delivery-Application-mern",
+      link: "",
+    },
+    {
+      title: "ECards",
+      description:
+        "Developed a responsive full-stack digital visiting card web application using the MERN stack. The application features a private QR code that, when scanned, reveals the user's visiting card.",
+      technologies:
+        "React, MongoDB,Nodejs,Expressjs,googleOAuth,redux,Firebase,spline",
+      github: "https://github.com/gnvvs-07/QR1",
       link: "",
     },
 

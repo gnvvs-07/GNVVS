@@ -4,6 +4,7 @@ import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { SiLeetcode } from "react-icons/si";
 import { FaSquareXTwitter } from "react-icons/fa6";
+import { FaSlack } from "react-icons/fa";
 import ShowResume from "../ShowResume.jsx";
 function Hero() {
   return (
@@ -49,6 +50,11 @@ function Hero() {
               <span>
                 <a href={user_info.profile.twitter}>
                   <FaSquareXTwitter />
+                </a>
+              </span>
+              <span>
+                <a href={user_info.profile.slack}>
+                  <FaSlack />
                 </a>
               </span>
             </div>
