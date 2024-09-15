@@ -12,6 +12,7 @@ import EducationAndExperience from "../components/sections/EducationAndExperienc
 import Skills from "../components/sections/Skills.jsx";
 import AcademicProjects from "../components/sections/AcademicProjects.jsx";
 import GitHubCommits from "../components/GitHubCommits.jsx";
+import Github from "../components/Github.jsx";
 
 function Homepage() {
   const { theme, switchTheme } = useContext(AppContext);
@@ -31,7 +32,8 @@ function Homepage() {
         <AcademicProjects/>
 				<EducationAndExperience />
         <Skills />
-        <GitHubCommits/>
+        {/* <GitHubCommits/> */}
+        <Github/>
         <Contact />
 
         <hr className="mt-12 border border-zinc-300 dark:border-zinc-800" />
